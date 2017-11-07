@@ -10,8 +10,101 @@
     <script src="index.js"></script>
     
   <h1>HTML Reference Page</h1><br>
+  
+  <table>
+  <tr>
+    <th>Element</th>
+    <th>Start Tag</th>
+    <th>End Tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><a href="#Document">HTML</a></td>
+    <td>&lt;!DOCTYPE html&gt;</td>
+    <td>N/A</td>
+    <td>&lt;!DOCTYPE html&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Document">HTML</a></td>
+    <td>&lt;html&gt;</td>
+    <td>&lt;/html&gt;</td>
+    <td>&lt;html&gt;(html code)&lt;/html&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Header">Title</a></td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;/title&gt;</td>
+    <td>&lt;Title&gt;My Web Page&lt;/Title&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Body">Body</a></td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;/body&gt;</td>
+    <td>&lt;body&gt;rendered content&lt;/body&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Body">Heading</a></td>
+    <td>&lt;h1&gt;,&lt;h2&gt;...</td>
+    <td>&lt;/h1&gt;,&lt;/h2&gt;...</td>
+    <td>&lt;h1&gt;All About Pencils&lt;/h1&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Body">Paragraph</a></td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;/p&gt;</td>
+    <td>&lt;p&gt;Pencils can be used to write.&lt;/p&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Body">Break</a></td>
+    <td>&lt;br&gt;</td>
+    <td>N/A</td>
+    <td>&lt;br&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Body">Line</a></td>
+    <td>&lt;hr&gt;</td>
+    <td>N/A</td>
+    <td>&lt;hr&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Comments">Comment</a></td>
+    <td>&lt;!--</td>
+    <td>--&gt;</td>
+    <td>&lt;!--Remember to bold key terms--&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Links">Link</a></td>
+    <td>&lt;a&gt;</td>
+    <td>&lt;/a&gt;</td>
+    <td>&lt;a href="http://google.com"&gt;Google&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Images">Image</a></td>
+    <td>&lt;img&gt;</td>
+    <td>N/A</td>
+    <td>&lt;img src="/images/home.png"&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Lists">List</a></td>
+    <td>&lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;</td>
+    <td>&lt;/ul&gt;,&lt;/ol&gt;,&lt;/li&gt;</td>
+    <td>&lt;ul&gt;<br>&lt;li&gt;Cereal&lt;/li&gt;<br>&lt;li&gt;Margarine&lt;/li&gt;<br>&lt;/ul&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Tables">Table</a></td>
+    <td>&lt;table&gt;,&lt;tr&gt;,&lt;th&gt;,&lt;td&gt;</td>
+    <td>&lt;/table&gt;,&lt;/tr&gt;,&lt;/th&gt;,&lt;/td&gt;</td>
+    <td>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;td&gt;Bob&lt;/td&gt;<br>&lt;td&gt;Mary&lt;/td&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#Blocks">Block</a></td>
+    <td>&lt;div&gt;</td>
+    <td>&lt;/div&gt;</td>
+    <td>&lt;div styles="color:red&gt;<br>&lt;p&gt;Hello&lt;/p&gt;<br>&lt;/div&gt;</td>
+  </tr>
+</table><br><br>
 
-  <a href="https://www.w3schools.com/html/html_basic.asp"><h2>Document and HTML</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_basic.asp"><h2 id="Document">Document and HTML</h2></a><br>
   <h3>Description</h3>
   <p>The Doctype element indicates to the browser that the document is written in Hypertext Markup Language.</p>
   <p>The HTML element follows it, and consists of the content of the website that is written in HTML.</p><br>
@@ -28,7 +121,7 @@
 
   <!--Bold each tag-->
   
-  <a href="https://www.w3schools.com/html/html_head.asp"><h2>Header and Title</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_head.asp"><h2 id="Head">Header and Title</h2></a><br>
   <h3>Description</h3>
   <p>The header element includes the part of the document that provides meta information about how the document should be read and managed. </p>
   <p>Inside the head element is the title element, which establishes the title of the website to be used by the browser.</p>
@@ -46,7 +139,7 @@
   
 <!--use div element to center example code-->
 
-  <a href="https://www.w3schools.com/html/html_paragraphs.asp"><h2>Body, Text, and Spacing</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_paragraphs.asp"><h2 id="Body">Body, Text, and Spacing</h2></a><br>
   <h3>Description</h3>
   <p>The body element contains the remainder of the HTML page, the part that will be rendered. </p>
   <p>Within the body, several different elements can be used to thematically separate the pageś textual content. The heading element indicates headings of various sizes and importance, while the paragraph element is used for the bulk of the text in a website. </p>
@@ -83,7 +176,7 @@
     <p>Carrots are vegetables. They are orange.</p>
     <p>Carrots can be used to make carrot juice.</p><br><br><br>
 
-  <a href="https://www.w3schools.com/html/html_comments.asp"><h2>Comments</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_comments.asp"><h2 id="Comments">Comments</h2></a><br>
   <h3>Description</h3>
   <p>The comment element is used to write comments in the code for future reference.They can be used as reminders. In addition, any code written within a comment will not be applied to the website, which makes comments a useful tool for debugging.</p><br>
   <h3>Syntax</h3>
@@ -93,7 +186,7 @@
   <h3>Example Rendering</h3>
   <p>Comments are not rendered</p><br><br><br>
   
-  <a href="https://www.w3schools.com/html/html_links.asp"><h2>Links</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_links.asp"><h2 id="Links">Links</h2></a><br>
   <h3>Description</h3>
   <p>The link element allows for a part of one's website to direct a user to a different page. Any rendered HTML element, including text and images, can be a link. Links can direct users to external websites or to other pages within the same website.</p><br>
   <h3>Syntax</h3>
@@ -104,7 +197,7 @@
   <p><a href="http://google.com">Google</a></p><br><br><br>
   
   
-  <a href="https://www.w3schools.com/html/html_images.asp"><h2>Images</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_images.asp"><h2 id="Images">Images</h2></a><br>
   <h3>Description</h3>
   <p>The image element is used to insert an image into a website. It is commonly used with several attributes to specify characteristics of the image.</p><br>
   <h3>Syntax</h3>
@@ -116,7 +209,7 @@
 
   
   
-  <a href="https://www.w3schools.com/html/html_lists.asp"><h2>Lists</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_lists.asp"><h2 id="Lists">Lists</h2></a><br>
   <h3>Description</h3>
   <p>The list element can be used to display a series of related textual items in the form of bulleted, numbered, or lettered lists.</p><br>
   <h3>Syntax</h3>
@@ -143,7 +236,7 @@
   </ul><br><br><br>
   
   
-  <a href="https://www.w3schools.com/html/html_tables.asp"><h2>Tables</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_tables.asp"><h2 id="Tables">Tables</h2></a><br>
   <h3>Description</h3>
   <p>The table element is used to display tables, which can be styled in many different ways.</p><br>
   <h3>Syntax</h3>
@@ -181,7 +274,7 @@
   </table><br><br><br>
   
   
-  <a href="https://www.w3schools.com/html/html_blocks.asp"><h2>Blocks</h2></a><br>
+  <a href="https://www.w3schools.com/html/html_blocks.asp"><h2 id="Blocks">Blocks</h2></a><br>
   <h3>Description</h3>
   <p>The block element can be used to group together several elements so that an attribute may be written only once but apply to the whole group of elements.</p><br>
   <h3>Syntax</h3>
