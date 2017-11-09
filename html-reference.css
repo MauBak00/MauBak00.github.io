@@ -1,0 +1,73 @@
+/*Table styling*/
+
+.table table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  margin:auto;
+}
+
+.table th {
+  background-color: rgba(173, 66, 244,0.7);
+}
+
+.table a:link {
+    text-decoration: none;
+}
+
+.table a:visited {
+    text-decoration: none;
+}
+
+
+
+/*Styling that applies throughout body*/
+
+.body {
+  margin:100px;
+}
+
+.body h1 {
+  text-align: center;
+}
+
+.body h2 {
+  background-color: rgba(173, 66, 244,0.7);
+  padding:8px;
+  text-align: center;
+  font-size:30px;
+}
+
+.body a:link {
+    text-decoration: none;
+}
+
+.body a:visited {
+    color:blue;
+    text-decoration: none;
+}
+
+/*styling for example code*/
+
+.example {
+  background-color: rgb(180,180,180);
+  font-family: "Courier New", Times;
+  font-size:15px;
+  padding:15px;
+  border:2px solid black;
+}
+
+.italics {
+  font-style: italic;
+}
+
+/*styling for rendering of example code*/
+
+.rendering {
+  background-color:powderblue;
+  padding:15px;
+  border:2px solid black;
+}
+
+
+
