@@ -1,0 +1,52 @@
+h, .topnav a {
+  font-family:georgia, times;
+}
+
+p {
+  font-family:verdana, Arial;
+}
+
+.header h1, .header p {
+  font-family:garamond, times;
+}
+
+img {
+  float: right;
+  padding: 6px;
+}
+
+@media (min-width: 701px) {
+    img {
+        height: 160px;
+        width: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    img {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+.content {
+  background-color: #f1f1f1;
+}
+
+.centered-image {
+  display: block;
+  float: none;
+  width: 30%;
+  margin: auto;
+}
+
+.caption {
+  text-align:center;
+  background-color:white;
+  width:30%;
+  margin:auto;
+}
+
+
+
+
