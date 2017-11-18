@@ -1,8 +1,8 @@
-h, .topnav a {
+h2, .topnav a, .caption {
   font-family:georgia, times;
 }
 
-p, th, td {
+p, th, td, li {
   font-family:verdana, Arial;
 }
 
@@ -10,14 +10,23 @@ p, th, td {
   font-family:garamond, times;
 }
 
+h1, h2 {
+  color: #23298e;
+}
+
 img {
   float: right;
   padding: 6px;
 }
 
+ol {
+  font-style: italic;
+  width:200px;
+}
+
 @media (min-width: 701px) {
     img {
-        height: 160px;
+        height: 200px;
         width: 20%;
     }
 }
@@ -53,9 +62,11 @@ img {
 
 .caption {
   text-align:center;
-  background-color:white;
+  background-color: #cfdefc;
   width:30%;
   margin:auto;
+  padding: 7px;
+  font-style:italic;
 }
 
 
@@ -77,6 +88,10 @@ th, td {
   font-style:italic;
 }
 
+iframe {
+  display: block;
+  margin: auto;
+}
 
 
 
